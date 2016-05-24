@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiExcepciones;
 
-namespace Programacion02Clase10
+namespace MiBiblioteca
 {
     public class Documento
     {
@@ -33,7 +34,7 @@ namespace Programacion02Clase10
                 throw nueva;
             }
 
-            
+
         }
     }
 }

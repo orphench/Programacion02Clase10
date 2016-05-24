@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiExcepciones;
 
-namespace Programacion02Clase10
+namespace MiBiblioteca
 {
-    class Portafolio
+    public class Portafolio
     {
         public List<Documento> listado;
 
@@ -34,7 +35,7 @@ namespace Programacion02Clase10
 
             finally
             {
-                Console.WriteLine("Finally Imprimir Portafolio"); 
+                Console.WriteLine("Finally Imprimir Portafolio");
             }
         }
     }

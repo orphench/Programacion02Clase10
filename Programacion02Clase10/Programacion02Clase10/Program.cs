@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiBiblioteca;
+using MiExcepciones;
 
 namespace Programacion02Clase10
 {
@@ -10,8 +12,12 @@ namespace Programacion02Clase10
     {
         static void Main(string[] args)
         {
+            //MiBiblioteca.PrimeraClase
+
+            MiBiblioteca.PrimeraEntidad unaEntidad = new MiBiblioteca.PrimeraEntidad();
+
             try
-            {
+            {            
                 int numeroUno = 0;
                 int numeroDos = 10;
                 //float resultado = numeroDos / numeroUno; //Excepcion
